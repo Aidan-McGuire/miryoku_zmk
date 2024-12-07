@@ -8,10 +8,10 @@ U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NAV \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &kp LG(LA(LC(LS(G)))),      U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,                   &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
-U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,                   &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,                   &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+&kp LG(LA(LC(LS(Q)))),  &kp LG(LA(LC(LS(W)))),  &kp LG(LA(LC(LS(F)))),  &kp LG(LA(LC(LS(P)))),  &kp LG(LA(LC(LS(G)))),      U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LG(LA(LC(LS(A)))),  &kp LG(LA(LC(LS(R)))),  &kp LG(LA(LC(LS(S)))),  &kp LG(LA(LC(LS(T)))),  &kp LG(LA(LC(LS(D)))),      &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
+&kp LG(LA(LC(LS(Z)))),  &kp LG(LA(LC(LS(X)))),  &kp LG(LA(LC(LS(C)))),  &kp LG(LA(LC(LS(V)))),  &kp LG(LA(LC(LS(B)))),      &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
+U_NP,                   U_NP,                   U_NA,                   U_NA,                   U_NA,                       &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_LAYER_MOUSE \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
