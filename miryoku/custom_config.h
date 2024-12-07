@@ -7,17 +7,19 @@ U_MT(LGUI, A),     U_MT(LALT, R),     U_MT(LCTRL, S),    U_MT(LSHFT, T),    &kp 
 U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp K,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
+
 #define MIRYOKU_LAYER_NAV \
-&kp LG(LA(LC(LS(Q)))),  &kp LG(LA(LC(LS(W)))),  &kp LG(LA(LC(LS(F)))),  &kp LG(LA(LC(LS(P)))),  &kp LG(LA(LC(LS(G)))),      U_RDO,             &kp LGUI(V),       &kp LGUI(C),       &kp LGUI(X),       U_UND,             \
-&kp LG(LA(LC(LS(A)))),  &kp LG(LA(LC(LS(R)))),  &kp LG(LA(LC(LS(S)))),  &kp LG(LA(LC(LS(T)))),  &kp LG(LA(LC(LS(D)))),      &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
-&kp LG(LA(LC(LS(Z)))),  &kp LG(LA(LC(LS(X)))),  &kp LG(LA(LC(LS(C)))),  &kp LG(LA(LC(LS(V)))),  &kp LG(LA(LC(LS(B)))),      &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
-U_NP,                   U_NP,                   U_NA,                   U_NA,                   U_NA,                       &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp UP,            &kp RIGHT,         \
+U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           \
+U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+
 
 #define MIRYOKU_LAYER_MOUSE \
-U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
-U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     U_NA,              U_NU,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
-U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+&kp LG(LA(LC(LS(Q)))),  &kp LG(LA(LC(LS(W)))),  &kp LG(LA(LC(LS(F)))),  &kp LG(LA(LC(LS(P)))),  &kp LG(LA(LC(LS(G)))),      U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp LG(LA(LC(LS(A)))),  &kp LG(LA(LC(LS(R)))),  &kp LG(LA(LC(LS(S)))),  &kp LG(LA(LC(LS(T)))),  &kp LG(LA(LC(LS(D)))),      U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
+&kp LG(LA(LC(LS(Z)))),  &kp LG(LA(LC(LS(X)))),  &kp LG(LA(LC(LS(C)))),  &kp LG(LA(LC(LS(V)))),  &kp LG(LA(LC(LS(B)))),      U_NU,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
+U_NP,                   U_NP,                   U_NA,                   U_NA,                   U_NA,                       U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 #define MIRYOKU_LAYER_MEDIA \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RGB_TOG,         U_RGB_EFF,         U_RGB_HUI,         U_RGB_SAI,         U_RGB_BRI,         \
