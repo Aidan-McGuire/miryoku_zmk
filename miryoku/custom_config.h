@@ -18,7 +18,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 #define MIRYOKU_LAYER_MOUSE \
 &kp LG(LA(LC(LS(Q)))),  &kp LG(LA(LC(LS(W)))),  &kp LG(LA(LC(LS(F)))),  &kp LG(LA(LC(LS(P)))),  &kp LG(LA(LC(LS(G)))),      U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp LG(LA(LC(LS(A)))),  &kp LG(LA(LC(LS(R)))),  &kp LG(LA(LC(LS(S)))),  &kp LG(LA(LC(LS(T)))),  &kp LG(LA(LC(LS(D)))),      U_NU,              U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            \
-&kp LG(LA(LC(LS(Z)))),  &kp LG(LA(LC(LS(X)))),  &kp LG(LA(LC(LS(C)))),  &kp LG(LA(LC(LS(V)))),  &kp LG(LA(LC(LS(B)))),      U_NU,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
+U_NA,                   U_NA,                   U_NA,                   U_NA,                   U_NA,                       U_NU,              U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            \
 U_NP,                   U_NP,                   U_NA,                   U_NA,                   U_NA,                       U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 #define MIRYOKU_LAYER_MEDIA \
